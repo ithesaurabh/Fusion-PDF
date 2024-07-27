@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PdfMerger Tool</title>
+    <link rel="stylesheet" href="./res/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="main">
+      <div id="MainPage">
+        <div id="backImage"></div>
+        <h1 id="logo">FusionPDF</h1>
+        <h3 id="tagline">Fusion of PDFs Made Simple</h3>
+        <h2 id="desc">
+          FusionPDF brings together your documents in a user-friendly way,
+          creating a unified PDF file with ease.
+        </h2>
+        <div id="Content">
+          <div id="col1">
+            <div id="custom-container">
+              <i class="ri-folder-add-line"></i>
+            </div>
+          </div>
+          <div id="col2">
+            <div id="row1"></div>
+            <div id="row2"></div>
+            <div id="row3" onclick="merge()">
+              <form
+                id="upload-form"
+                action="/merge"
+                method="post"
+                enctype="multipart/form-data"
+              >
+                <input
+                  id="pdf-upload"
+                  type="file"
+                  name="pdfs"
+                  accept=".pdf"
+                  multiple
+                  required
+                />
+                <button id="submitBtn" type="submit"></button>
+              </form>
+
+              <p>merge</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="foot">
+        <h1>#codingforacause</h1>
+        <h2>~Designed and developed by Saurabh</h2>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
