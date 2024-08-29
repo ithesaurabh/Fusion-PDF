@@ -43,13 +43,13 @@ html, body{
     background-image: url('heroImage.jpg');
     background-size: cover;
     background-position: center; 
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     position: absolute;
     z-index: -1;
     /* filter: blur(0.5px); */
 }
 #logo{
-    margin-top: 10px;
+    margin-top: 15px;
     font-family: MainFont;
     color:#3B3B3B;
     font-size: 36px;
@@ -64,12 +64,12 @@ html, body{
     margin-top: 20px;
     width: 75%;
     font-family: QuikSMed;
-    color: #2A2A2A;
-    font-size: 32px;
+    color: #2a2a2aa4;
+    font-size: 62px;
     text-align: center;
 }
 #Content{
-    margin-top: 20px;
+    margin-top: 5%;
     width: 55%;
     height: 40%;
     display: flex;
@@ -120,11 +120,11 @@ html, body{
     align-items: center;
     font-family: MontReg;
     padding-left: 10px;
-    font-size: 12px;
+    font-size: 18px;
     border-radius: 20px;
-    border: 2px solid #8E8E8E;
-    background-color: #e7e7e7ab;
-    color: #7B7B7B;
+    border: 2px solid #05470f;
+    background-color: #bcbcbccd;
+    color: #05470f;
 }
 #row2{
     width: 100%;
@@ -134,12 +134,11 @@ html, body{
     align-items: center;
     font-family: MontReg;
     padding-left: 10px;
-    font-size: 12px;
+    font-size: 18px;
     border-radius: 20px;
-    border: 2px solid #8E8E8E;
-    background-color: #e7e7e7ab;
-    color: #7B7B7B;
-
+    border: 2px solid #05470f;
+    background-color: #bcbcbccd;
+    color: #05470f;
 }
 #row3{
     width: 50%;
@@ -149,7 +148,8 @@ html, body{
     align-items: center;
     font-family: MontReg;
     color: #7B7B7B;
-    font-size: 24px;
+    cursor: pointer;
+    font-size: 35px;
     border-radius: 35px;
     border: 2px solid #8E8E8E;
     background-color: #F3F3F3;
